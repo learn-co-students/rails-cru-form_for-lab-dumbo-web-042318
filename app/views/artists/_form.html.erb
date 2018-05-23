@@ -1,0 +1,12 @@
+<%= form_for @artist do |f| %>
+  <!-- Name -->
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <!-- Bio -->
+  <%= f.label :bio %>
+  <%= f.text_area :bio %>
+
+  <!-- Submit -->
+  <%= f.submit %>
+<% end %>
